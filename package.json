@@ -3,33 +3,11 @@
     "version": "0.0.1",
     "description": "Minimal project to show how to setup  [cucumber](http: //cukes.info/) for nodejs environment",
     "scripts": {
-        "test": "cucumber.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/lykmapipo/nodejs-cucumber-sample.git"
-    },
-    "bugs": {
-        "url": "https://github.com/lykmapipo/nodejs-cucumber-sample/issues"
-    },
-    "homepage": "https://github.com/lykmapipo/nodejs-cucumber-sample",
-    "keywords": [
-        "cucumberjs",
-        "bdd",
-        "setup",
-        "bootstrap",
-        "tdd",
-        "test",
-        "testing",
-        "gherkin",
-        "cucumber"
-    ],
-    "author": {
-        "name": "Lally Elias",
-        "email": "lallyelias87@gmail.com"
+        "test": "cucumber-js"
     },
     "license": "MIT",
     "devDependencies": {
+        "@cucumber/cucumber": "^8.0.0-rc.2",
         "chai": "^1.10.0"
     },
     "engines": {
